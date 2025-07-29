@@ -34,7 +34,7 @@ const menuItems = [
 const Header = () => {
   const [isShowNavBar, setIsShowNavbar] = useState(false);
   return (
-    <div className={"bg-black text-white py-2"}>
+    <div className={"bg-black text-white py-2 relative z-10"}>
       <Logo/>
       <div className={"py-2 px-4 flex justify-between items-center gap-4"}>
         <ul className={`fixed left-0 top-0 bg-black h-dvh w-2/3 pl-8 pt-8 flex flex-col gap-4 transition-all ${isShowNavBar ? 'translate-x-0' : '-translate-x-full'}`}>
