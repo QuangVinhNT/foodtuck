@@ -1,12 +1,6 @@
-import {Great_Vibes} from "next/font/google";
-import React from "react";
-import {FaFacebookF, FaPinterestP, FaTwitter} from "react-icons/fa6";
+import { greatVibes } from "@/styles/fonts";
 import Image from "next/image";
-
-const greatVibes = Great_Vibes({
-  subsets: ["latin"],
-  weight: "400"
-});
+import { FaFacebookF, FaPinterestP, FaTwitter } from "react-icons/fa6";
 
 const HeroSection = () => {
   return (
@@ -25,7 +19,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className={'flex-1'}>
-        <Image src={'/assets/hero_section.png'} alt={'Hero Image'} width={300} height={300}/>
+        <Image src={'/assets/hero_section.png'} alt={'Hero Image'} priority width={300} height={300}/>
       </div>
     </div>
   );

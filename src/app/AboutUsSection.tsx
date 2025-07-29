@@ -1,11 +1,5 @@
+import { greatVibes } from "@/styles/fonts";
 import Image from "next/image";
-import React from 'react';
-import { Great_Vibes } from "next/font/google";
-
-const greatVibes = Great_Vibes({
-  subsets: ["latin"],
-  weight: "400"
-});
 
 const AboutUsSection = () => {
   return (
@@ -23,7 +17,7 @@ const AboutUsSection = () => {
         </ul>
       </div>
       <div className="mt-4 flex flex-col gap-2">
-        <Image src={'/assets/about_us_section_1.jpg'} alt="" width={1280} height={720} className="rounded-md"/>
+        <Image src={'/assets/about_us_section_1.jpg'} alt="" width={1280} height={720} priority className="rounded-md"/>
         <div className="flex gap-2">
           <Image src={'/assets/about_us_section_2.jpg'} alt="" width={1280} height={720} className="rounded-md object-cover w-[calc(50%-4px)]"/>
           <Image src={'/assets/about_us_section_3.jpg'} alt="" width={1280} height={720} className="rounded-md object-cover w-[calc(50%-4px)]"/>
