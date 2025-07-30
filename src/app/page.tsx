@@ -5,7 +5,7 @@ import ReasonSection from "./ReasonSection";
 
 export default function Home() {
   return (
-    <div className={'bg-black text-white px-4'}>
+    <div className={'bg-black text-white px-4 pb-16 pt-8'}>
       <HeroSection />
       <AboutUsSection />
       <FoodCategorySection />

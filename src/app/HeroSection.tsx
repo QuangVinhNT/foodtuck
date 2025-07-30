@@ -4,7 +4,7 @@ import { FaFacebookF, FaPinterestP, FaTwitter } from "react-icons/fa6";
 
 const HeroSection = () => {
   return (
-    <div className={'bg-black/90 flex items-center py-10'}>
+    <div className={'bg-black/90 flex items-center'}>
       <div className={'flex items-center w-1/2 gap-4'}>
         <div className={'flex flex-col gap-1.5 relative before:absolute before:content-[""] before:w-[1px] before:h-24 before:bg-white before:-top-full before:left-1/2 before:-translate-x-1/2 before:-translate-y-3/4 after:absolute after:content-[""] after:w-[1px] after:h-24 after:bg-white after:-bottom-full after:left-1/2 after:-translate-x-1/2 after:translate-y-3/4'}>
           <FaFacebookF size={10}/>
